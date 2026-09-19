@@ -1,0 +1,1 @@
+ALTER TABLE `scans` MODIFY COLUMN `inputMode` enum('message','link','screenshot','document') NOT NULL;
